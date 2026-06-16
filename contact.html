@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Apex Scholars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="dark-nav">
+        <!-- Same Navbar -->
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Apex Scholars</span>
+                <span class="logo-tagline">Education Consulting</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#">Services</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="test-prep.html">Test Prep</a>
+                <a href="process.html">How It Works</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="padding: 10rem 0 4rem;">
+            <div class="container fade-up">
+                <h1>Let's Talk.</h1>
+                <p>Book a free counselling session — online or in person. A senior counsellor will get back to you within 24 hours.</p>
+            </div>
+        </section>
+
+        <section class="bg-white">
+            <div class="container">
+                <div class="grid-2">
+                    <div class="fade-up">
+                        <h2>Book Your Free Counselling Session</h2>
+                        <form action="https://api.web3forms.com/submit" method="POST" class="mt-8" style="background: var(--bg-light); padding: 2rem; border-radius: var(--radius-lg);">
+                            <!-- Web3Forms Configuration -->
+                            <input type="hidden" name="access_key" value="90e532ab-a8a4-4e69-8f34-0a24a77681e4">
+                            <input type="hidden" name="subject" value="New Lead from Apex Scholars Website (Contact Page)">
+                            <input type="checkbox" name="botcheck" style="display: none;">
+
+                            <div class="form-group">
+                                <label class="form-label">Full Name *</label>
+                                <input type="text" name="name" class="form-control" required>
+                            </div>
+                            <div class="grid-2" style="gap: 1.5rem;">
+                                <div class="form-group">
+                                    <label class="form-label">Email Address *</label>
+                                    <input type="email" name="email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Phone Number *</label>
+                                    <input type="tel" name="phone" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">City *</label>
+                                <input type="text" name="city" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">I'm interested in:</label>
+                                <div class="radio-group">
+                                    <label class="radio-label"><input type="radio" name="interest" value="Studying Abroad"> Studying Abroad</label>
+                                    <label class="radio-label"><input type="radio" name="interest" value="Studying in India"> Studying in India</label>
+                                    <label class="radio-label"><input type="radio" name="interest" value="Both"> Both</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Message (optional)</label>
+                                <textarea name="message" class="form-control" rows="4" placeholder="Tell us a bit about what you're looking for"></textarea>
+                            </div>
+                            <!-- Success Redirect -->
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Book My Free Session</button>
+                            <p class="privacy-note mt-4">We respond within 24 hours. No commitment. No sales pressure.</p>
+                        </form>
+                    </div>
+
+                    <div class="fade-up" style="padding-left: 2rem;">
+                        <h3>Contact Details</h3>
+                        <div class="mt-8">
+                            <div style="margin-bottom: 2rem; display: flex; align-items: flex-start; gap: 1rem;">
+                                <div style="font-size: 1.5rem;">📞</div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.25rem;">Phone</h4>
+                                    <a href="tel:+910000000000" style="color: var(--text-muted); font-size: 1.125rem;">+91-XXXXX-XXXXX</a>
+                                </div>
+                            </div>
+                            <div style="margin-bottom: 2rem; display: flex; align-items: flex-start; gap: 1rem;">
+                                <div style="font-size: 1.5rem;">📧</div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.25rem;">Email</h4>
+                                    <a href="mailto:hello@apexscholars.in" style="color: var(--text-muted); font-size: 1.125rem;">hello@apexscholars.in</a>
+                                </div>
+                            </div>
+                            <div style="margin-bottom: 2rem; display: flex; align-items: flex-start; gap: 1rem;">
+                                <div style="font-size: 1.5rem;">💬</div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.25rem;">WhatsApp</h4>
+                                    <a href="#" style="color: var(--text-muted); font-size: 1.125rem;">Chat with us instantly</a>
+                                </div>
+                            </div>
+                            <div style="margin-bottom: 2rem; display: flex; align-items: flex-start; gap: 1rem;">
+                                <div style="font-size: 1.5rem;">📍</div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.25rem;">Offices</h4>
+                                    <p style="color: var(--text-muted); font-size: 1.125rem;">Pan-India — serving students across all major cities</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="background: var(--primary); color: white; padding: 2rem; border-radius: var(--radius-lg); margin-top: 3rem;">
+                            <h3 style="color: white; margin-bottom: 1rem;">Prefer WhatsApp?</h3>
+                            <p style="color: rgba(255,255,255,0.8); margin-bottom: 1.5rem;">Message us directly and we'll connect you with a counsellor right away.</p>
+                            <a href="#" class="btn btn-secondary">Chat on WhatsApp &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer omitted for brevity -->
+    <script src="script.js"></script>
+</body>
+</html>
